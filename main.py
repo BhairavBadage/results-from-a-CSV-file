@@ -4,9 +4,9 @@ import pandas as pd
 import CSV
 
 main=Tk()
-main.title(\"Marksheet\")
-main.geometry(\"500x300\")
-main.config(highlightbackground=\"black\",highlightthickness=2)      
+main.title("Marksheet")
+main.geometry("500x300")
+main.config(highlightbackground="black",highlightthickness=2)      
 
 font = ('Trebuchet MS', 11)
             
@@ -59,16 +59,16 @@ RollNo =Entry(frame1)
 RollNo.place(x=210,y=80)
 
 Name =Entry(frame1)     
-Name.place(x=210,y=80)
+Name.place(x=210,y=120)
             
 Maths =Entry(frame1)     
-Maths.place(x=210,y=80)
+Maths.place(x=210,y=150)
      
 Physics =Entry(frame1)     
-Physics.place(x=210,y=80)
+Physics.place(x=210,y=180)
             
 Chemistry =Entry(frame1)     
-Chemistry.place(x=210,y=80)
+Chemistry.place(x=210,y=210)
             
 Average =Entry(frame1)     
-Average.place(x=210,y=80)
+Average.place(x=210,y=250)
