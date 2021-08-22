@@ -72,3 +72,13 @@ Chemistry.place(x=210,y=210)
             
 Average =Entry(frame1)     
 Average.place(x=210,y=250)
+
+Name.configure(state=tk.DISABLED)                     
+Maths.configure(state=tk.DISABLED)                    
+Physics.configure(state=tk.DISABLED)                    
+Chemistry.configure(state=tk.DISABLED)                   
+Average.configure(state=tk.DISABLED)
+
+Button(frame1,text = "Show",command = submit,width=5,font=("bold", 10),bg ='white').place(x=400,y=78)
+
+main.mainloop()
